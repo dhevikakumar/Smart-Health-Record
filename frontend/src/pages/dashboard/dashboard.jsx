@@ -5,7 +5,7 @@ import { TbLogout2 } from "react-icons/tb";
 import { QRCodeCanvas } from 'qrcode.react';
 import { FaFileAlt, FaUpload, FaFileMedical, FaTrash } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
-import chatService from '../../services/chatService';
+import chatService from '../../services/textsummary';
 import { Permission, Role } from 'appwrite';
 
 const Dashboard = () => {
